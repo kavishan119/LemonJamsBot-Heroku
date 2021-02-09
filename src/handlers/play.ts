@@ -5,7 +5,7 @@ export const playHandler = Composer.command('play', async ctx => {
     const { chat } = ctx.message;
 
     if (chat.type !== 'supergroup') {
-        await ctx.reply('I can only play in groups.');
+        await ctx.reply('I can only play in groups.So Please add me to your group😊');
         return;
     }
 
